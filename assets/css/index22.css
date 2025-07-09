@@ -1,0 +1,178 @@
+body {
+    background: linear-gradient(120deg, aqua, violet);
+    /* background:radial-gradient(180deg, yellow,green); */
+/ } 
+
+  
+
+.pro {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.pro ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    width: 80%;
+    float: left;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.menu ul {
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: red;
+}
+
+.bloc_photo {
+     width: 20%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#pp {
+    border: 3px solid white;
+    border-radius: 10%;
+}
+
+.experience {
+    display: flex;
+    justify-content: space-around;
+}
+
+    
+table {
+    width: 500px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin : auto;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+.compétence, th {
+    background-color: yellow;
+}
+
+td {
+    background-color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.table-td {
+    width: 150px;
+}
+
+.progress {
+    background-color: aqua;
+    height: 15px;
+    border-radius: 25%;
+}
+
+#td1 {
+    width: 160px;
+}
+
+#td2,
+#td3,
+#td4 {
+    width: 125px;
+}
+
+#td5,
+#td7 {
+    width: 145px;
+}
+/* .table-td .td-4 {
+    background-color: aqua;
+    width: 125px;
+    height: 15px;
+    border-radius: 25%;
+} */
+
+/* .table-td .td-5 {
+    background-color: aqua;
+    width: 145px;
+    height: 15px;
+    border-radius: 25%;
+} */
+
+/* .table-td .td-6 {
+    background-color: aqua;
+    width: 160px;
+    height: 15px;
+    border-radius: 25%;
+} */
+
+/* .table-td .td-7 {
+    background-color: aqua;
+    width: 145px;
+    height: 15px;
+    border-radius: 25%;
+} */
+#td6,
+#td8,
+#td9,
+#td10 {
+    width: 160px;
+}
+/* .table-td .td-8 {
+    background-color: aqua;
+    width: 160px;
+    height: 15px;
+    border-radius: 25%;
+}
+
+.table-td .td-9 {
+    background-color: aqua;
+    width: 160px;
+    height: 15px;
+    border-radius: 25%;
+}
+
+.table-td .td-10 {
+    background-color: aqua;
+    width: 160px;
+    height: 15px;
+    border-radius: 25%;
+} */
